@@ -1,0 +1,36 @@
+<ion-navbar *navbar>
+    <a menu-toggle>
+        <icon menu></icon>
+    </a>
+    <ion-title>Intro</ion-title>
+</ion-navbar>
+
+<ion-content>
+
+    <ion-slides>
+
+        <ion-slide>
+            <img src="img/intro1.png">
+
+        </ion-slide>
+
+        <ion-slide>
+
+            <img src="img/intro2.png">
+
+        </ion-slide>
+
+        <ion-slide>
+
+            <div class="arrow-position" (click)="done()">
+                <icon heart></icon>
+            </div>
+            <img src="img/intro3.png" (click)="next_page()">
+
+        </ion-slide>
+        <ion-pager>
+        </ion-pager>
+
+    </ion-slides>
+
+</ion-content>

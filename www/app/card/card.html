@@ -1,0 +1,26 @@
+<ion-navbar *navbar>
+    <a menu-toggle>
+        <icon menu></icon>
+    </a>
+    <ion-title>Card demo</ion-title>
+</ion-navbar>
+
+
+<ion-content padding class="getting-started">
+
+    <div>
+        <h4>
+            What is Card in ionic2 ?
+        </h4>
+    </div>
+    <ion-card>
+        <ion-card-header>
+            Header
+        </ion-card-header>
+        <ion-card-content>
+            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+        </ion-card-content>
+    </ion-card>
+    <button secondary (click)="next_page()">Go</button>
+
+</ion-content>
